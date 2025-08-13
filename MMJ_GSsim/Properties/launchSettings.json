@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MMJ_GSsim (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MMJ_GSsim (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
