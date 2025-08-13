@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-12T08:32:55.238</Modified>
+      <Modified>2025-08-13T08:08:24.766</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-08-11T18:09:43.381</Modified>
+      <Modified>2025-08-13T08:08:24.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MMJ_GSsim.runtimeconfig.json">
       <PackagePath>MMJ_GSsim.runtimeconfig.json</PackagePath>
-      <Modified>2025-08-11T11:16:13.679</Modified>
+      <Modified>2025-08-13T08:08:24.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MMJ_GSsim.dll">
       <PackagePath>MMJ_GSsim.dll</PackagePath>
-      <Modified>2025-08-12T08:32:54.370</Modified>
+      <Modified>2025-08-13T08:08:23.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>MMJ_GSsim.exe</PackagePath>
-      <Modified>2025-08-12T08:32:54.389</Modified>
+      <Modified>2025-08-13T08:08:23.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.18\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -919,35 +919,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MMJ_GSsim.deps.json">
       <PackagePath>MMJ_GSsim.deps.json</PackagePath>
-      <Modified>2025-08-11T18:09:43.121</Modified>
+      <Modified>2025-08-13T08:08:24.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.599</Modified>
+      <Modified>2025-08-13T08:06:41.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.599</Modified>
+      <Modified>2025-08-13T08:06:41.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.601</Modified>
+      <Modified>2025-08-13T08:06:41.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.602</Modified>
+      <Modified>2025-08-13T08:06:41.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.603</Modified>
+      <Modified>2025-08-13T08:06:41.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.603</Modified>
+      <Modified>2025-08-13T08:06:41.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-10-25T12:05:43.604</Modified>
+      <Modified>2025-08-13T08:06:41.855</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MMJ_GSsim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53639b3fbc4d6b8df9546aa084193cb2ecf04553")]
 [assembly: System.Reflection.AssemblyProductAttribute("MMJ_GSsim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MMJ_GSsim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

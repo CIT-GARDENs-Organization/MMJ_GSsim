@@ -261,3 +261,4 @@ C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0
 C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\System.CodeDom.dll
 C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\System.IO.Ports.dll
 C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\System.Management.dll
+C:\Users\harut\source\repos\MMJ_GSsim\MMJ_GSsim\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MMJ_GSsim.sourcelink.json
