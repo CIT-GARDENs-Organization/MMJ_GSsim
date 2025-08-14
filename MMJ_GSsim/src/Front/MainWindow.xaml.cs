@@ -104,7 +104,16 @@ namespace MMJ_GSsim.Front
 
         private void TncTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // TNC selection changed - could add TNC-specific logic here
+            if (TncTypeComboBox.SelectedItem is ComboBoxItem selectedItem)
+            {
+                string tncType = selectedItem.Content.ToString();
+
+                // Update available COM ports based on radio type
+                if (tncType == "Kantronics")
+                {
+                    LoadTncSpecificPorts(tncType);
+                }
+            }
         }
 
         private void LoadRadioSpecificPorts(string radioType)
@@ -153,6 +162,44 @@ namespace MMJ_GSsim.Front
                 AppendToHistory($"Radio port filtering error: {ex.Message}");
             }
         }
+
+
+        private void LoadTncSpecificPorts(string tncType)
+        {
+            try
+            {
+                var allPorts = CheckSerial.GetDeviceManagerStylePortsInfo(true);
+                var filteredPorts = new List<ComPortInfo>();
+
+                foreach (var port in allPorts)
+                {
+                    if (tncType == "Kantronics")
+                    {
+                        if (port.hardwareId[0] != null && (port.hardwareId[0] == @"FTDIBUS\\COMPORT&VID_0403&PID_6001"))
+                        {
+                            filteredPorts.Add(port);
+                        }
+                    }
+                }
+
+                // If no specific ports found, show all ports
+                if (filteredPorts.Count == 0)
+                {
+                    filteredPorts = allPorts;
+                }
+
+                TncComPortComboBox.ItemsSource = filteredPorts;
+                if (filteredPorts.Count > 0)
+                {
+                    TncComPortComboBox.SelectedIndex = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                AppendToHistory($"Tnc port filtering error: {ex.Message}");
+            }
+        }
+
 
         private async void ConnectButton_Click(object sender, RoutedEventArgs e)
         {
